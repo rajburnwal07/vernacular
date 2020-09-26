@@ -6,7 +6,7 @@ chmod +x del.sh
 # if you are logged in as ubuntu user otherwise run it as sudo
 ./del.sh
 
-#Dockerfile for Ubuntu:16.04
+# Dockerfile for Ubuntu:16.04
 
 docker build -t ubuntu:verna .
 docker run  -itd --name ubuntu-verna ubuntu:verna
@@ -18,5 +18,6 @@ telnet www.google.com 80
 
 # script for showing hardware and OS related information
 
-chmod +x hw.sh
-hw.sh
+chmod +x hwaudit.sh
+
+hwaudit.sh
